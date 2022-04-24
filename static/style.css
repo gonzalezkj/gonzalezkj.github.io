@@ -1,0 +1,161 @@
+.seccion {
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+.cuerpo {
+    background-color: black;
+}
+
+.nav.justify-content{
+    padding: 20px;
+    justify-content: center;
+}
+
+.nav-item {
+    margin-left: 25px;
+}
+
+.nav-link {
+    font-family: fantasy;
+    color: white !important;
+}
+.welcome {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    font-family: fantasy;
+}
+
+.iam {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+}
+
+.bd {
+    margin-left: 48%;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+}
+
+.contenedor1{
+    margin-top: 20%;
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.wh {
+    text-align: left;
+    width: 70%;
+}
+
+.languajes1 {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.languajes {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.contenedor2{
+    margin-top: 20%;
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.wh2 {
+    margin-left: 250px;
+    text-align: right;
+    width: 50%;
+}
+
+.cont {
+    width: 500px;
+}
+
+.conte {
+    width: 500px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .contenedor1 {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+    }
+
+    .contenedor2 {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+    }
+
+    .wh {
+        text-align: center;
+        width: auto;
+    }
+
+    .wh2 {
+        text-align: center;
+        width: auto;
+        margin-left: auto;
+    }
+
+    .cont{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .conte {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.contenedor3{
+    width: 350px;
+    margin-top: 20%;
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.link{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.links {
+    margin-left: 100px;
+}
+
+.img1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 60px;
+}
+
+
+.img4 {
+    width: 55px;
+    height: 55px;
+    border: white;
+    border-radius: 5px;
+    margin-left: 60px;
+}
