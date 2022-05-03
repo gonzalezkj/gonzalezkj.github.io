@@ -146,16 +146,15 @@
     }
 
     .cont3 {
-        margin-top: 340px;
+        display: flex;
+        justify-content: center;
+        margin-right: 400px;
+        margin-top: 300px;
     }
 
     .conte3 {
+        width: 500px;
         margin-left: 90px;
-    }
-
-    .videoedicion{
-        width: 400px;
-        height: 230px;
     }
 
 
@@ -197,12 +196,4 @@
 
 .recomendacion{
     font-size: 16px;
-}
-
-.cont3 {
-    width: 500px;
-}
-
-.conte3 {
-    width: 500px;
 }
